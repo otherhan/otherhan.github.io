@@ -5,39 +5,38 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <title>SnipLens 更新</title>
     <link>https://otherhan.github.io/sniplens/</link>
     <item>
-      <title>SnipLens 0.1.7</title>
+      <title>SnipLens 0.1.8</title>
       <link>https://otherhan.github.io/sniplens/</link>
-      <pubDate>Tue, 13 Oct 2026 07:26:15 +0000</pubDate>
-      <sparkle:version>8</sparkle:version>
-      <sparkle:shortVersionString>0.1.7</sparkle:shortVersionString>
+      <pubDate>Tue, 13 Oct 2026 10:35:39 +0000</pubDate>
+      <sparkle:version>9</sparkle:version>
+      <sparkle:shortVersionString>0.1.8</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>15.0.0</sparkle:minimumSystemVersion>
-      <description sparkle:format="plain-text">SnipLens 0.1.7 增加应用内更新：有新版时，状态栏显示实心下载箭头，确认后可直接下载安装并重启，无需再次打开 DMG 手动替换。
+      <description sparkle:format="plain-text">SnipLens 0.1.8 更新截图翻译浮窗和设置界面，统一为轻盈的原生毛玻璃背景，文字更清晰，长内容和小窗口也能舒适阅读。
 
-更新提示
+翻译浮窗
 
-- 启动后和每隔 24 小时检查新版，后台检查不弹窗。
-- 有可安装的新版时，状态栏主图标右下角显示透明背景、实心下载箭头；菜单和“设置 → 通用 → 关于”同步显示“下载更新”和版本号。
-- 菜单与设置保留“检查更新”入口，可配置应用内快捷键。检查和下载过程中禁用重复操作。
+- 原文始终显示，直接点击即可编辑；短文字按内容收紧，不再保留大块空白。
+- 默认原文 16 点、译文 20 点；浮窗菜单和通用设置增加“大字号”，可切换为 18/22 点并保存选择。
+- 简化语言、识别服务和翻译服务控件，集中显示重译、复制等操作；窄窗口自动调整布局，长原文和译文分别滚动。
+- 去除底部白条，统一浅色和深色配色；开启“减少透明度”或增强对比度时使用实色背景。
 
-下载与覆盖安装
+设置界面
 
-- 点击更新入口可查看说明，再确认下载。下载完成并通过签名校验后，点击“安装并重启应用”，自动替换原位置的应用。
-- 更新清单和安装包均校验签名。不会静默下载或安装，不收集系统信息；后台检查失败不打断截图、识字和翻译。
-- 选择“稍后提醒我”、跳过版本或更新会话结束后，收起状态栏提示。
+- 保留顶部五类导航，使用统一毛玻璃底色、浅底分组和细边线，增大正文与辅助文字。
+- 开关统一右对齐，服务选择和快捷键录制控件更轻盈。
+- 修复滚动内容压住顶部导航，以及缩小窗口后自动恢复大尺寸的问题。
 
-首次升级
-
-0.1.6 及更早的正式版本尚未包含更新器，需要先手动安装一次 0.1.7；之后即可通过应用内更新。
+0.1.7 用户可通过菜单或“设置 → 通用 → 关于”的更新入口确认下载，安装并重启应用。0.1.6 及更早版本需先手动安装带更新器的新版。
 
 支持 macOS 15 及更新版本。Apple 芯片 Mac 可选 arm64 版，通用版同时支持 Apple 芯片与 Intel Mac。首次安装时打开 DMG，将 SnipLens 拖入“应用程序”文件夹并替换旧版。
 
-安装包未经过 Apple 公证。若 macOS 阻止首次打开，确认来源后可在“系统设置 → 隐私与安全性”中选择“仍要打开”。升级后若截图或划词权限需要恢复，可按应用中的授权引导处理。
+安装包未经过 Apple 公证。若 macOS 阻止首次打开，确认来源后可在“系统设置 → 隐私与安全性”中选择“仍要打开”。
 
 产品页与公开下载</description>
-      <enclosure url="https://otherhan.github.io/sniplens/downloads/SnipLens-0.1.7-universal.dmg" length="2246617" type="application/octet-stream" sparkle:edSignature="Lq6OWKU0JaphAT3Hv/EEHhlag3bJ03tD0R+NDviLjsXfbVanMoWl9jvnoesip+EY85jxraarYZEttnUJjI7qAA=="></enclosure>
+      <enclosure url="https://otherhan.github.io/sniplens/downloads/SnipLens-0.1.8-universal.dmg" length="2490014" type="application/octet-stream" sparkle:edSignature="cssuibMQRlDJAqJB2DpX1rS8Vxup9Nbd7W/fZiPlJdkVHB1ZKEPbMvTiunDDK0K/vUgSAR1AGslicuSjaX2KBQ=="></enclosure>
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: xqxKimO13HWrhrEzNMQ8syY5+1G6zt3IfooWQPcfDx9bxy7KmhqLRl8upsJN/3ue1sOTAdJRRtu0C0TsLvDsCg==
-length: 2824
+edSignature: h6bll1NSmjpT7EzplkfUZGHr493Hri2isUx3Ouv1imJsTvKaA+OnOz+hnKrCY1OAAyJSLVtVlT27t7AxNT7oBA==
+length: 2765
 -->
