@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><!-- sparkle-sign-warning:
+IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
+--><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+  <channel>
+    <title>SnipLens 更新</title>
+    <link>https://otherhan.github.io/sniplens/</link>
+    <item>
+      <title>SnipLens 0.1.6</title>
+      <link>https://otherhan.github.io/sniplens/</link>
+      <pubDate>Tue, 13 Oct 2026 04:00:02 +0000</pubDate>
+      <sparkle:version>7</sparkle:version>
+      <sparkle:shortVersionString>0.1.6</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="plain-text">SnipLens 0.1.6 改进文字识别与翻译失败后的恢复，缩小结果浮窗，并补齐截图和划词的授权引导。
+
+识别与翻译
+
+- 本地识别可指定语言；空结果或偶发错误时，增强图片并重试一次。macOS 26 及更新版本可选择本地文档识别。
+- 可分别选择识别与翻译服务。新增 Google Cloud Translation 与 Google Cloud Vision 官方 API，密钥保存在钥匙串；默认仍使用本地识别与 Apple 系统翻译。
+- 当前截图可直接重新识别，无需重新框选。系统翻译先确定源语言，同语言返回原文。
+- Google 服务需要自己的 API 密钥、启用对应 API 和结算账户，费用与免费额度以服务商规则为准。只有主动选择 Google OCR 才会上传当前截图，在线翻译只发送文字。
+
+更紧凑的结果浮窗
+
+- 以译文为主，原文按需展开；窗口高度随内容变化，长文滚动显示。
+- 可在浮窗切换服务、重新识别或重试翻译。未钉住的已完成窗口失焦收起，处理中的任务与授权引导保持显示。
+
+按功能引导授权
+
+- 截图和截图识字引导屏幕录制权限，划词翻译单独引导辅助功能权限；手动输入和粘贴翻译不要求这两项权限。
+- 可申请授权、打开对应系统设置并刷新状态，从设置返回后自动检查。授权尚未生效时，提供当前应用定位和重新打开说明。
+- 划词授权完成后返回原应用重新选中文字，避免读取过期选区。识别失败和取消操作保持剪贴板内容。
+
+下载与安装
+
+支持 macOS 15 及更新版本。Apple 芯片 Mac 选择 arm64 版；通用版同时支持 Apple 芯片和 Intel Mac。打开 DMG 后，将 SnipLens 拖入“应用程序”文件夹。
+
+安装包未经过 Apple 公证。若 macOS 阻止首次打开，确认来源后可在“系统设置 → 隐私与安全性”中选择“仍要打开”。
+
+产品页与公开下载</description>
+      <enclosure url="https://otherhan.github.io/sniplens/downloads/SnipLens-0.1.6-universal.dmg" length="1301784" type="application/octet-stream" sparkle:edSignature="NIWgHIbPM180EtyW0gJ1pk5UwBILqA0yKxafT/cGbyg7F5UxxIQk4Z56miflaWdgbs+HVX32mWRkxa4SzW1mBA=="></enclosure>
+    </item>
+  </channel>
+</rss><!-- sparkle-signatures:
+edSignature: w2KVdxIDqheTvWrlUlFJwFfX7DV6zzYnCmuzUocGtIIcbEk/Ofud3H4KCucnBe7iGLXC2ZSBro0xW3ynZfPMAg==
+length: 3143
+-->
