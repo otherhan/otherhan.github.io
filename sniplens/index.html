@@ -7,7 +7,7 @@
   <meta name="description" content="SnipLens 是 Mac 菜单栏截图、识字与翻译工具。框选、标注、遮挡、复制或保存，也能直接提取文字。">
   <link rel="canonical" href="https://otherhan.github.io/sniplens/">
   <link rel="icon" type="image/png" href="assets/AppIcon.png">
-  <link rel="stylesheet" href="styles.css?v=0.1.5">
+  <link rel="stylesheet" href="styles.css?v=0.1.6">
   <title>SnipLens - 屏幕上的文字，直接拿来用</title>
 </head>
 <body>
@@ -34,7 +34,7 @@
           <p class="hero-statement">屏幕上的文字，直接拿来用。</p>
           <p class="hero-description">框选屏幕，标注、遮挡并分享截图。图片里的文字，也能直接提取或翻译。</p>
           <div class="hero-actions">
-            <a class="button button-primary" href="downloads/SnipLens-0.1.5-arm64.dmg" download>下载 Apple 芯片版</a>
+            <a class="button button-primary" href="downloads/SnipLens-0.1.6-arm64.dmg" download>下载 Apple 芯片版</a>
             <a class="text-link" href="#download">查看其他版本</a>
           </div>
           <p class="hero-requirement">适用于 macOS 15 及更新版本</p>
@@ -55,7 +55,7 @@
           </article>
           <article>
             <h3>截图识字</h3>
-            <p>图片、PDF 或无法选中的界面，框选后得到可编辑、可复制的文字。</p>
+            <p>图片、PDF 或无法选中的界面，框选后得到可编辑、可复制的文字。可指定语言，失败时增强重试，也可主动选择 Google 云端识别。</p>
           </article>
           <article>
             <h3>静默 OCR</h3>
@@ -63,7 +63,7 @@
           </article>
           <article>
             <h3>随处翻译</h3>
-            <p>翻译截图、其他应用中选中的文字，或自己输入的内容。</p>
+            <p>翻译截图、其他应用中选中的文字，或自己输入的内容。紧凑浮窗以译文为主，可切换 Apple 系统翻译、Google 翻译或自定义服务。</p>
           </article>
         </div>
       </div>
@@ -86,7 +86,7 @@
             <strong>把看见的文字，变成可以使用的内容。</strong>
             <span class="result-feedback">✓ 已复制到剪贴板</span>
           </div>
-          <figcaption>识别在本机完成；静默 OCR 不会打开结果窗口。</figcaption>
+          <figcaption>默认识别在本机完成；静默 OCR 不会打开结果窗口。</figcaption>
         </figure>
       </div>
     </section>
@@ -103,21 +103,21 @@
               <h3>Apple 芯片</h3>
               <p>适用于 M 系列芯片的 Mac</p>
             </div>
-            <a class="button button-primary" href="downloads/SnipLens-0.1.5-arm64.dmg" download>下载 arm64 版</a>
+            <a class="button button-primary" href="downloads/SnipLens-0.1.6-arm64.dmg" download>下载 arm64 版</a>
           </div>
           <div class="download-option">
             <div>
               <h3>通用版</h3>
               <p>适用于 Apple 芯片与 Intel Mac</p>
             </div>
-            <a class="button button-secondary" href="downloads/SnipLens-0.1.5-universal.dmg" download>下载通用版</a>
+            <a class="button button-secondary" href="downloads/SnipLens-0.1.6-universal.dmg" download>下载通用版</a>
           </div>
         </div>
-        <p class="system-requirement">当前版本 0.1.5 · 最低要求 macOS 15</p>
+        <p class="system-requirement">当前版本 0.1.6 · 最低要求 macOS 15</p>
         <p>快捷键按功能配置，截图标注、保存、贴图和翻译窗口操作都可设置自己的按键。</p>
         <details class="install-help">
           <summary>首次打开时被 macOS 阻止？</summary>
-          <p>当前安装包尚未经过 Apple 公证。确认文件来自本页后，在“系统设置 → 隐私与安全性”中选择“仍要打开”。首次使用截图和划词翻译时，还需分别授权屏幕录制与辅助功能。</p>
+          <p>当前安装包尚未经过 Apple 公证。确认文件来自本页后，在“系统设置 → 隐私与安全性”中选择“仍要打开”。首次截图和划词翻译时，会分别引导屏幕录制与辅助功能授权；从系统设置返回后自动刷新状态，授权尚未生效时提供恢复说明。输入和粘贴翻译无需这两项权限。</p>
         </details>
       </div>
     </section>
@@ -126,8 +126,8 @@
       <div class="container privacy-layout">
         <h2 id="privacy-title">文字由你决定去哪里。</h2>
         <div>
-          <p>截图由 macOS Vision 在本机识别。默认使用 Apple 系统翻译；如果切换到自定义翻译服务，发送的是文字，不是截图。</p>
-          <p>SnipLens 不自动保存截图或翻译历史；只有你主动保存图片时才写入磁盘。截图框选目前限于单个显示器，识别更适合横排单栏文字。</p>
+          <p>默认由 macOS Vision 在本机识别，macOS 26+ 可选择本地文档识别。只有主动选择 Google OCR 时才上传当前截图；Apple 系统翻译在本机处理，Google 翻译与自定义翻译服务只接收文字。</p>
+          <p>Google 识别与翻译需配置自己的 API 密钥并启用结算，费用以服务商规则为准；密钥保存在钥匙串。SnipLens 不自动保存截图或翻译历史；只有你主动保存图片时才写入磁盘。截图框选目前限于单个显示器，识别更适合横排单栏文字。</p>
         </div>
       </div>
     </section>
