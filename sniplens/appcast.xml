@@ -5,38 +5,38 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <title>SnipLens 更新</title>
     <link>https://otherhan.github.io/sniplens/</link>
     <item>
-      <title>SnipLens 0.1.8</title>
+      <title>SnipLens 0.1.9</title>
       <link>https://otherhan.github.io/sniplens/</link>
-      <pubDate>Tue, 13 Oct 2026 10:35:39 +0000</pubDate>
-      <sparkle:version>9</sparkle:version>
-      <sparkle:shortVersionString>0.1.8</sparkle:shortVersionString>
+      <pubDate>Wed, 14 Oct 2026 01:52:36 +0000</pubDate>
+      <sparkle:version>10</sparkle:version>
+      <sparkle:shortVersionString>0.1.9</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>15.0.0</sparkle:minimumSystemVersion>
-      <description sparkle:format="plain-text">SnipLens 0.1.8 更新截图翻译浮窗和设置界面，统一为轻盈的原生毛玻璃背景，文字更清晰，长内容和小窗口也能舒适阅读。
+      <description sparkle:format="plain-text">SnipLens 0.1.9 收拢设置中的权限入口，精简说明，让日常设置更清楚。
 
-翻译浮窗
+权限管理
 
-- 原文始终显示，直接点击即可编辑；短文字按内容收紧，不再保留大块空白。
-- 默认原文 16 点、译文 20 点；浮窗菜单和通用设置增加“大字号”，可切换为 18/22 点并保存选择。
-- 简化语言、识别服务和翻译服务控件，集中显示重译、复制等操作；窄窗口自动调整布局，长原文和译文分别滚动。
-- 去除底部白条，统一浅色和深色配色；开启“减少透明度”或增强对比度时使用实色背景。
+- 屏幕录制和辅助功能统一放在“权限与隐私”，每项权限保留一个授权或管理入口。
+- 截图、OCR 和翻译页仅在缺少权限或授权未生效时显示提示，点击“管理权限”即可直达对应设置页。
+- 从系统设置返回后自动更新权限状态；切换设置分类不再重复检查。授权排障默认折叠，需要时再展开。
 
-设置界面
+设置说明
 
-- 保留顶部五类导航，使用统一毛玻璃底色、浅底分组和细边线，增大正文与辅助文字。
-- 开关统一右对齐，服务选择和快捷键录制控件更轻盈。
-- 修复滚动内容压住顶部导航，以及缩小窗口后自动恢复大尺寸的问题。
+- 保留 OCR、Google OCR 和静默截图 OCR 的名称。
+- 精简窗口、保存、识别、翻译及更新说明，保留云端上传、费用和服务配置等必要信息。
+- 连接选项默认折叠；密钥操作改为“编辑密钥”和“保存密钥”，避免重复载入覆盖未保存内容。
+- Google OCR 的配置说明指向对应的文字识别服务文档。
 
-0.1.7 用户可通过菜单或“设置 → 通用 → 关于”的更新入口确认下载，安装并重启应用。0.1.6 及更早版本需先手动安装带更新器的新版。
+0.1.7 及更新版本可从菜单或“设置 → 通用 → 关于”检查更新，确认下载后安装并重启。0.1.6 及更早版本需先手动安装带更新器的新版。
 
 支持 macOS 15 及更新版本。Apple 芯片 Mac 可选 arm64 版，通用版同时支持 Apple 芯片与 Intel Mac。首次安装时打开 DMG，将 SnipLens 拖入“应用程序”文件夹并替换旧版。
 
 安装包未经过 Apple 公证。若 macOS 阻止首次打开，确认来源后可在“系统设置 → 隐私与安全性”中选择“仍要打开”。
 
 产品页与公开下载</description>
-      <enclosure url="https://otherhan.github.io/sniplens/downloads/SnipLens-0.1.8-universal.dmg" length="2490014" type="application/octet-stream" sparkle:edSignature="cssuibMQRlDJAqJB2DpX1rS8Vxup9Nbd7W/fZiPlJdkVHB1ZKEPbMvTiunDDK0K/vUgSAR1AGslicuSjaX2KBQ=="></enclosure>
+      <enclosure url="https://otherhan.github.io/sniplens/downloads/SnipLens-0.1.9-universal.dmg" length="2528822" type="application/octet-stream" sparkle:edSignature="0ezs95aWf9Qnyd3S0gOkiLI6DoK1p76lP9SJLNsuxy5zAAfk92CEHTEoBsK+9rXgvIrE9oY+oVs7POGB/gkbDA=="></enclosure>
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: h6bll1NSmjpT7EzplkfUZGHr493Hri2isUx3Ouv1imJsTvKaA+OnOz+hnKrCY1OAAyJSLVtVlT27t7AxNT7oBA==
-length: 2765
+edSignature: 3LuxPpkZrbVHpNeu5diGbbwMvrozcsCLOVj0sl1Ff3ID/3ACjsj7oxaWpWYIRBr+hZastQPllSkesUzrtkvlBQ==
+length: 2666
 -->
